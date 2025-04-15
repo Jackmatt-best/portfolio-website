@@ -15,7 +15,7 @@ export default function Skills() {
             <section >
                 <div className='md:flex flex-col'>
                     <div className='flex items-center justify-center'><h1>Programming Languages</h1></div>
-                    <div className='grid grid-cols-2'>
+                    <div className='grid grid-cols-2 gap-3'>
                         <div><FaHtml5 className='text-8xl' /></div>
                         <div><FaCss3 /></div>
                         <div><SiJavascript /></div>
@@ -27,20 +27,23 @@ export default function Skills() {
             <section>
                 <div>
                     <div><h1>Frontend Frameworks and Libraries</h1></div>
-                    <div><DiJqueryLogo /></div>
-                    <div><DiReact /></div>
-                    <div><SiNextdotjs /></div>
-                    <div><SiBootstrap /></div>
-                    <div><SiTailwindcss /></div>
-
+                    <div className='grid grid-cols-2 gap-3'>
+                        <div><DiJqueryLogo /></div>
+                        <div><DiReact /></div>
+                        <div><SiNextdotjs /></div>
+                        <div><SiBootstrap /></div>
+                        <div><SiTailwindcss /></div>
+                        </div>
                 </div>
             </section>
             <section>
                 <div>
                     <div><h1>UI/UX Design & Frontend Tools</h1></div>
-                    <div><DiSass /></div>
-                    <div><SiFigma /></div>
-                    <div><DiGit /></div>
+                    <div className='grid grid-cols-2 gap-3'>
+                        <div><DiSass /></div>
+                        <div><SiFigma /></div>
+                        <div><DiGit /></div>
+                    </div>
                 </div>
             </section>
         </section>
